@@ -13,6 +13,8 @@
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <netbeans.hint.deploy.server>Tomcat</netbeans.hint.deploy.server>
+        <sonar.organization>bellayin</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <dependencies>
@@ -44,7 +46,6 @@
             <artifactId>jbossjta</artifactId>
             <version>4.16.6.Final</version>           
         </dependency>
-      
     </dependencies>
 
     <build>
